@@ -1,0 +1,99 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff7f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header, section {
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #ffe3e9;
+}
+
+h1, h2, h3 {
+    color: #d63384;
+}
+
+button {
+    background-color: #d63384;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b32268;
+}
+
+input, select {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #d63384;
+    margin: 10px 0;
+}
+
+input[type="text"], select {
+    width: 100%;
+    max-width: 300px;
+}
+
+form {
+    display: inline-block;
+    text-align: left;
+}
+
+audio {
+    margin-top: 10px;
+}
+
+/* Estilos específicos para cada sección */
+.save-the-date {
+    background-color: #ffcad4;
+}
+
+.save-the-date h2 {
+    margin: 10px 0;
+}
+
+.save-the-date p, .ubicacion p, .regalos p, .galeria p, .playlist p, .hashtag p, .musica p, .alojamiento p {
+    color: #555;
+}
+
+#sobre-nosotros {
+    background-color: #fff0f6;
+}
+
+#informacion {
+    background-color: #ffedf1;
+}
+
+#lista-regalos {
+    background-color: #ffcad4;
+}
+
+#confirmacion-asistencia {
+    background-color: #ffe3e9;
+}
+
+#album-fotos {
+    background-color: #ffedf1;
+}
+
+#interactua-invitados {
+    background-color: #fff0f6;
+}
+
+#musica-fondo {
+    background-color: #ffcad4;
+}
+
+#recomendaciones {
+    background-color: #ffedf1;
+}
